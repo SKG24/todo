@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
+  background: #171717;
+  color: hsl(200, 67%, 70%);
   max-width: 400px;
   padding: 1rem;
   margin: 0 auto;
@@ -24,7 +24,7 @@ body {
 }
 
 .btn {
-  background: hsl(200, 100%, 50%, 0.1);
+  background: hsla(209, 100%, 41%, 0.1);
   border: 1px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 50%);
   padding: 0.25em 0.5em;
@@ -35,7 +35,7 @@ body {
 
 .btn:hover,
 .btn:focus-visible {
-  background: hsl(200, 100%, 50%, 0.2);
+  background: hsla(214, 100%, 50%, 0.2);
 }
 
 .btn.btn-danger {
@@ -51,8 +51,8 @@ body {
 
 .new-item-form input {
   outline: none;
-  border: 1px solid hsl(200, 100%, 40%);
-  background: hsl(200, 100%, 30%);
+  border: 1px solid hsl(200, 98%, 49%);
+  background: hsl(200, 100%, 40%);
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
   color: hsl(200, 100%, 90%);
@@ -76,7 +76,7 @@ body {
 }
 
 .list li:has(input:checked) label {
-  color: hsl(200, 20%, 40%);
+  color: hsl(200, 56%, 67%);
 }
 
 .list {
